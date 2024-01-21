@@ -20,4 +20,10 @@ else
 fi
 
 # Installing Essential Programs
-yay -S hyprland waybar rofi dunst kitty swaybg swaylock swayidle pamixer pavucontrol light brillo ttf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-bitstream-vera ttf-carlito ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-iosevka-nerd ttf-liberation ttf-meslo-nerd ttf-ms-fonts ttf-opensans noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak wl-clipboard grimblast librewolf-bin brave-bin epiphany blueman openvpn networkmanager-openvpn papirus-icon-theme firefox jetbrains-toolbox vim vi neovim git zsh storageexplorer gnome-keyring dbeaver zoom filezilla transmission-gtk putty postman-bin evince loupe visual-studio-code-bin figma-linux-bin spotify telegram-desktop --noconfirm
+yay -S hyprland waybar rofi dunst kitty swaybg swaylock swayidle pamixer pavucontrol light brillo ttf-font-awesome ttf-jetbrains-mono-nerd ttf-jetbrains-mono ttf-bitstream-vera ttf-carlito ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-iosevka-nerd ttf-liberation ttf-meslo-nerd ttf-ms-fonts ttf-opensans noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak wl-clipboard grimblast librewolf-bin brave-bin epiphany blueman openvpn networkmanager-openvpn papirus-icon-theme firefox jetbrains-toolbox vim vi neovim git zsh storageexplorer gnome-keyring dbeaver zoom filezilla transmission-gtk putty postman-bin evince loupe visual-studio-code-bin figma-linux-bin spotify telegram-desktop nautilus bluez bluez-utils cava --noconfirm
+
+# Update fonts cache
+fc-cache -vf
+
+# Move config files
+cp -R config/* ~/.config/
