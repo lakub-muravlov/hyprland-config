@@ -8,4 +8,3 @@ chmod +x install.sh
 TODO:
 
 -   add sddm theme autoconfig
--   add fonts Iosevka font autoinstall
