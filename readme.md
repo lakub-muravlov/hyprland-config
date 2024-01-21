@@ -5,6 +5,15 @@ chmod +x install.sh
 ./install
 ```
 
-TODO:
+Sddm themes included:
 
--   add sddm theme autoconfig
+-   [Sugar Dark (id: sugar-dark)](https://store.kde.org/p/1272122)
+
+Postinstall:
+Set preferred sddm theme in `/usr/lib/sddm/sddm.conf.d/default.conf`
+
+```
+[Theme]
+# Current theme name
+Current={theme-id}
+```

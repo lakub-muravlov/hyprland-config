@@ -29,6 +29,7 @@ mkdir -p ~/.local/share
 # Move config files
 cp -R config/* ~/.config/
 cp -R local/* ~/.local/
+sudo cp -R sddm/themes/* /usr/share/sddm/themes/
 
 # Update fonts cache
 fc-cache -vf
